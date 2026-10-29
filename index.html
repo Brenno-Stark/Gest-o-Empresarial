@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistema de Gestão Empresarial</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="identidade-sistema">
+            <h1>Sistema de Gestão</h1>
+            <p>Painel Administrativo</p>
+        </div>
+
+        <div class="usuario">
+            <p>Administrador</p>
+        </div>
+
+    </header>
+
+
+    <div class="layout-principal">
+        <nav class="menu-lateral" aria-label="menu principal">
+            <ul>
+
+                <li>
+                    <a href="#dashboard">Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="#clientes">Clientes</a>
+                </li>
+
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="#financeiro">Financeiro</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <main>
+            <section id="dashboard" aria-labelledby="titulo-dashboard">
+
+                <h2 id="titulo-dashboard">Dashboard</h2>
+                <p>Visão da empresa</p>
+
+                <div class="indicadores">
+
+                    <article class="indicador">
+                        <h3>Total de Clientes </h3>
+                        <p class="indicador-valor">0</p>
+                    </article>
+
+                    <article class="indicador">
+                        <h3>Projetos Ativos </h3>
+                        <p class="indicador-valor">0</p>
+                    </article>
+
+                    <article class="indicador">
+                        <h3>Valores Recebidos </h3>
+                        <p class="indicador-valor">R$ 0,00</p>
+                    </article>
+
+                    <article class="indicador">
+                        <h3>Projetos Concluídos </h3>
+                        <p class="indicador-valor">0</p>
+                    </article>
+
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
