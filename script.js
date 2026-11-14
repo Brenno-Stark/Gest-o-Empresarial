@@ -1,12 +1,9 @@
 
-"use strict";
+const formulario = document.querySelector("#form-cliente");
 
-const formularioCliente = document.querySelector("#form-cliente");
+formulario.addEventListener("submit", function(evento) {
+    evento.preventDefault();
 
-if (formularioCliente) {
-    formularioCliente.addEventListener("submit", (evento) => {
-        evento.preventDefault();
+    console.log("O formulário foi enviado!");
+});
 
-        console.log("Formulário de clientes enviado com sucesso.");
-    });
-}
